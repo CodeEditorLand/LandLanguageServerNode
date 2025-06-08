@@ -22,7 +22,7 @@
 		"tsconfig-gen": "./bin/tsconfig-gen"
 	},
 	"dependencies": {
-		"yargs": "^17.7.2"
+		"yargs": "^18.0.0"
 	},
 	"devDependencies": {
 		"@types/yargs": "^17.0.33"

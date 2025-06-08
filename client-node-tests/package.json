@@ -29,22 +29,22 @@
 		"all:publish": "git clean -xfd . && npm install && npm run symlink:publish && npm run compile:publish && npm run test:publish"
 	},
 	"dependencies": {
-		"minimatch": "^9.0.3",
+		"minimatch": "^10.0.1",
 		"vscode-languageserver": "10.0.0-next.13",
-		"vscode-uri": "3.0.8"
+		"vscode-uri": "3.1.0"
 	},
 	"devDependencies": {
 		"@types/glob": "^8.1.0",
 		"@types/minimatch": "^5.1.2",
-		"@types/sinon": "^17.0.3",
+		"@types/sinon": "^17.0.4",
 		"@types/uuid": "^10.0.0",
-		"@types/vscode": "1.91.0",
-		"@types/node": "20.17.9",
-		"@vscode/test-electron": "^2.4.1",
-		"find-process": "^1.4.7",
-		"glob": "^11.0.0",
-		"sinon": "^19.0.2",
-		"uuid": "^11.0.3"
+		"@types/vscode": "1.100.0",
+		"@types/node": "22.15.30",
+		"@vscode/test-electron": "^2.5.2",
+		"find-process": "^1.4.10",
+		"glob": "^11.0.2",
+		"sinon": "^20.0.0",
+		"uuid": "^11.1.0"
 	},
 	"enabledApiProposals": []
 }
